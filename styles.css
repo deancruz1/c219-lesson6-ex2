@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.carousel-item img {
+    max-height: 40vh; /* You can adjust this value based on your needs */
+    object-fit: cover;
+    object-position: center;
+}
+
+.cards-container {
+    justify-content: space-between;
+}
+
+.custom-aspect-ratio {
+    aspect-ratio: 1; /* Set a 1:1 aspect ratio; adjust as needed */
+    object-fit: cover;
+}
